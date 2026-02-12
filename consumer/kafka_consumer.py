@@ -39,3 +39,6 @@ except KeyboardInterrupt:
 
 finally:
     consumer.close()
+
+total_tables = {'customers': customers_lst,
+                'orders': orders_lst}
